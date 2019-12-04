@@ -21,8 +21,8 @@ samples, guidance on mobile development, and a full API reference.
 - （1）解压 Flutter SDK 包
 
 ## 二、配置环境变量
-- 1）cd ~ 回到根目录 command+shift+. 检测根目录是是否有.bash_profile
-- 2）若没有，终端下在根目录 vim .bash_profile 按i创建
+- 1) cd ~ 回到根目录 command+shift+. 检测根目录是是否有.bash_profile
+- 2) 若没有，终端下在根目录 vim .bash_profile 按i创建
 
 ```javascript
 export PUB_HOSTED_URL=https://pub.flutter-io.cn
@@ -30,9 +30,9 @@ export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 export PATH=/Users/9t2e20190814/Documents/development/flutter/bin:$PATH
 ```
 - /Users/9t2e20190814/Documents/development/flutter/改成你的开发目录
-- 3）esc+:wq+回车 保存
-- 4）关闭所有窗口 终端根目录 echo $PATH
-- 5）终端根目录 flutter help 或 flutter
+- 3) esc+:wq+回车 保存
+- 4) 关闭所有窗口 终端根目录 echo $PATH
+- 5) 终端根目录 flutter help 或 flutter
 - 6) flutter doctor 检测 安装必装项
 - 7) open -a simulator // 打开xcode 中的simulator 模批器
 ## 三、安装android studio 
