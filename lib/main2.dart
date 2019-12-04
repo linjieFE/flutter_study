@@ -19,7 +19,7 @@ void main(){
   print(isValid);
 
   // String 转义
-  String s1 ='i\'m jenny';//  \ 为转义符号
+  String s1 ='i\'m jenny';// 符号前加“ \ ”为转义符号
   print(s1);
 
   // String 拼接
